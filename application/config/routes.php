@@ -164,5 +164,7 @@ $route['api/v1/availabilities']['get'] = 'api/v1/availabilities_api_v1/get';
 |
 */
 
+$route['webhooks/kaspi']['post'] = 'kaspi_webhook/payment';
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
