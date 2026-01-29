@@ -50,4 +50,20 @@ class Config
     const GOOGLE_SYNC_FEATURE = false; // Enter TRUE or FALSE
     const GOOGLE_CLIENT_ID = '';
     const GOOGLE_CLIENT_SECRET = '';
+
+    // ------------------------------------------------------------------------
+    // KASPI WEBHOOK
+    // ------------------------------------------------------------------------
+
+    const KASPI_WEBHOOK_HEADER = 'X-Kaspi-Signature';
+    const KASPI_WEBHOOK_TOKEN = '';
+    const KASPI_DEFAULT_SERVICE_ID = 0;
+    const KASPI_DEFAULT_PROVIDER_ID = 0;
+
+    // ------------------------------------------------------------------------
+    // TELEGRAM NOTIFICATIONS
+    // ------------------------------------------------------------------------
+
+    const TELEGRAM_BOT_TOKEN = '';
+    const TELEGRAM_CHAT_ID = '';
 }
